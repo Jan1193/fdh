@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: lightgrey;
+    overflow:hidden;
+	    position:relative;
+    top:0%;
+    width:100%;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	font-family:Roboto,Helvetica,Arial,sans-serif;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+/* Add an active class to highlight the current page */
+a.active {
+    background-color: darkgray;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+} 
+html body{
+    background: url(cream_dust.png);
+	   margin:0;
+   padding:0;
+   min-height:100%;
+}
+.logo{
+	float:right;
+    text-align: center;
+    color: red;
+    font-family:Roboto,Helvetica,Arial,sans-serif;
+    
+    
+}
+.dropdown {	
+    position: relative;
+
+    display: inline-block;
+	float: left;
+	overflow:hidden;
+}
+.dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+	font-family:Roboto,Helvetica,Arial,sans-serif;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a:hover{
+    background-color: darkgray;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+.dropdown:hover{
+	background-color: LightGray;
+    color: darkgray;
+}
+.dropbtn:hover{
+    background-color: LightGray;
+    color: white;
+}
+
+.container {
+	font-family:Roboto,Helvetica,Arial,sans-serif;
+  width: 100%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.a1{
+    color: black;
+}
+.centered {
+    position: relative;
+    top: 150px;;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size:70px;
+	font-family:Roboto,Helvetica,Arial,sans-serif;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-align:center;
+    
+
+} 
+.foot{
+	background-color:#b0bec5;
+	font-family:Roboto,Helvetica,Arial,sans-serif;
+	color:#fff;  
+	padding:20px;
+	 position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+.p1{
+	font-size:13px;
+
+}
+.p2{
+	font-size:13px;
+
+}
+.p3{
+	text-align:center;
+}
+.p4{
+    margin-top: 100px;
+    font-size: 40px;
+}
+.p5{
+    margin-top: 200px;
+    font-size: 40px;
+}
+.container a{
+    margin-top: 50px;
+	font-size:50px;
+	color:white;
+}
+.container a:hover{
+	background-color:white;
+}
+
+
+.body{
+	text-align:center;
+    
+}
+.tekst{
+	display:inline-block;
+	width: 1000px;
+	font-size: 200%
+	
+}
+.sec{
+	font-family:Roboto,Helvetica,Arial,sans-serif;
+    
+	color:black;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.img2{
+	width:50%;
+	height:50%;
+}
+
+
+.footin{
+	background-color:#b0bec5;
+	font-family:Roboto,Helvetica,Arial,sans-serif;
+	color:#fff;  
+	padding:20px;
+	 position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+
